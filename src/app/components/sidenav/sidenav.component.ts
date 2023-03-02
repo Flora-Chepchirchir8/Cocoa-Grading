@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./sidenav.component.css']
 })
 export class SidenavComponent {
+  status: boolean = false;
+  clickEvent(){
+      this.status = !this.status;       
+  }
 
 }

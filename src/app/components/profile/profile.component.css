@@ -1,0 +1,34 @@
+.profile{
+    align-content: center;
+}
+.circle{
+
+    margin-left: 20%;
+   
+  
+}  
+.rectangle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 1px #e0e0e0;
+    background-color: #C4C4C4;
+    text-align: center;
+  }
+  .desc{
+
+    text-align: center;
+  }
+  .btn{
+    background-color: rgba(91, 37, 180, 0.1);
+    color:#5B25B4 ;
+    font-weight: bold;
+    border-radius: 20%;
+    width: 100px;
+    height: 40px;
+  }
+  .rect{
+    margin-top: 15%;
+   
+    
+  }

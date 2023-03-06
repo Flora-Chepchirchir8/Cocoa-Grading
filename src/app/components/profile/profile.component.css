@@ -1,0 +1,36 @@
+button{
+    background-color: rgb(196, 195, 196);
+    border-radius: 20px;
+    font-size: large;
+    text-align: center;
+    padding: 0.5rem;
+    color: #C532FE;
+    width: 40%;
+}
+
+.board{padding:40px;box-sizing:border-box;
+    background-color:#A000E6;
+    border-radius: 20px;
+}
+
+
+.one{
+    background-color: rgb(196, 195, 196);
+    border-radius: 20px;
+    font-size: large;
+    text-align: center;
+    padding: 0.5rem;
+    color: #C532FE;
+    width: 40%;
+}
+
+
+.board p,h3{
+    color: white;
+
+}
+
+.boarder{padding:40px;box-sizing:border-box;
+    background-color:#A000E6;
+    border-radius: 20px;
+}

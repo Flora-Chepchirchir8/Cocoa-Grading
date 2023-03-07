@@ -20,12 +20,14 @@ export class DashboardComponent {
 
     yAxis:{
       tickInterval: 200,
+      gridLineColor: 'transparent',
       
 
     },
 
     xAxis: {
       categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'Jul'],
+      
      
     },
     colors:['#7E66D2','#C4C4C4' ],
@@ -42,6 +44,7 @@ export class DashboardComponent {
     },
         type: 'line', 
         data: [0, 600, 400, 1000,800,800,1200],
+        
         
         
       },

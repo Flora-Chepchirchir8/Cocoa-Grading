@@ -1,10 +1,10 @@
 button{
     background-color: #EFE9F7;
-    border-radius: 20px;
+    border-radius: 50px;
     font-size: large;
     text-align: center;
     padding: 0.5rem;
-    color: #C532FE;
+    color: #A000E6;
     width: 50%;
     border: 0rem;
 }
@@ -13,17 +13,17 @@ button{
     padding:40px;
     box-sizing:border-box;
     background-color:#A000E6;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 
 .one{
     background-color: #EFE9F7;
-    border-radius: 20px;
+    border-radius: 15px;
     font-size: large;
     text-align: center;
     padding: 0.5rem;
-    color: #C532FE;
+    color: #A000E6;
     width: 40%;
 }
 
@@ -34,11 +34,52 @@ button{
 }
 
 .boarder{padding:40px;box-sizing:border-box;
-    background-color:#A000E6;
-    border-radius: 20px;
+    border: solid rgb(239,233,247) 1px;
+    border-radius: 15px;
+    
 }
 
 .circle{
-    background-color: #FEFDFE;
+    /* background-color: #c923c9; */
+    margin-left: 25%;
+    
+}
+.span{
+    font-weight: 500;
+    font-size: 18%;
+}
+.line{
+    height: 5px;
+    width: 100%;
+    background-color: lightgrey;
+    position: relative;
+    border-radius: 15px;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0%;
+    top: 0%;
+    background-color:  #A000E6;
+    border-radius: 15px;
+
+
+
+}
+.tests::before{
+    width: 80%;
+    background-color: white;
+    
+}
+.revenue::before{
+    width: 40%;
+    background-color:  #A000E6;
+    
+    
+}
+.tests.line{
+    background-color:#45198D;
     
 }

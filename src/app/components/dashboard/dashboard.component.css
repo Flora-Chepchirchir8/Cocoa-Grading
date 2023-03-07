@@ -1,7 +1,4 @@
-.db{
-    background-color:white ;
 
-}
 .board{
     display: flex;
     justify-content: space-between;
@@ -12,11 +9,10 @@
     display: flex;
     margin-top: 5%;
     justify-content: space-between;
+   
+   
 }
-/* .graph{
 
-      margin-top: 10%;
-} */
 .line{
     margin-top: 10%;
     width: 603px;
@@ -24,8 +20,31 @@
 }
 .form{
     margin-top: 10%;
+    margin-right: 8%;
 
 }
 input{
     margin: 1rem;
+}
+.db{
+    background-color: #FAFAFA;
+    
+    
+}
+.fil{
+    font-size: small;
+    color: #787878;
+    
+}
+
+.search{
+    margin-right: 5%;
+}
+.slider{
+    display: flex;
+    margin: 15px 10px; 
+    justify-content: end;
+    margin-right: 8%;
+    
+    
 }

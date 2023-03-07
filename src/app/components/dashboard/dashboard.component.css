@@ -13,8 +13,14 @@
     margin-top: 5%;
     justify-content: space-between;
 }
-.graph{
+/* .graph{
+
       margin-top: 10%;
+} */
+.line{
+    margin-top: 10%;
+    width: 603px;
+    height: 336px;
 }
 .form{
     margin-top: 10%;

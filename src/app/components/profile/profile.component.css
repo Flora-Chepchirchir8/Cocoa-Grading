@@ -1,21 +1,24 @@
 button{
-    background-color: rgb(196, 195, 196);
+    background-color: #EFE9F7;
     border-radius: 20px;
     font-size: large;
     text-align: center;
     padding: 0.5rem;
     color: #C532FE;
-    width: 40%;
+    width: 50%;
+    border: 0rem;
 }
 
-.board{padding:40px;box-sizing:border-box;
+.board{
+    padding:40px;
+    box-sizing:border-box;
     background-color:#A000E6;
     border-radius: 20px;
 }
 
 
 .one{
-    background-color: rgb(196, 195, 196);
+    background-color: #EFE9F7;
     border-radius: 20px;
     font-size: large;
     text-align: center;
@@ -33,4 +36,9 @@ button{
 .boarder{padding:40px;box-sizing:border-box;
     background-color:#A000E6;
     border-radius: 20px;
+}
+
+.circle{
+    background-color: #FEFDFE;
+    
 }

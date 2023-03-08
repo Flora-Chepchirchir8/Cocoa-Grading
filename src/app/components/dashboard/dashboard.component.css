@@ -43,7 +43,7 @@ input{
 .slider{
     display: flex;
     margin: 15px 10px; 
-    justify-content: end;
+    justify-content: flex-end;
     margin-right: 8%;
     
     
